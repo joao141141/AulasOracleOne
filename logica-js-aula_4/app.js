@@ -9,7 +9,7 @@ while (chute != numeroSecreto) {
     chute = prompt('Escolha um número entre 1 e 100');
     // se chute for igual ao número secreto
     if (chute == numeroSecreto) {
-        break;
+        alert("Parabéns! Você acertou o número secreto.");
     } else {
         if (chute > numeroSecreto) {
             alert(`O número secreto é menor que ${chute}`);
